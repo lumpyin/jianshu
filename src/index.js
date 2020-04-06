@@ -7,11 +7,11 @@ import App from './App';
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <GlobalStyle />
     <GlobalStyle1 />  
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 
